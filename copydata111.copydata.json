@@ -41,6 +41,7 @@
     },
     "operator": {
       "parameter": {
+        "expectedMaxParallelism": 1,
         "customParameters": {},
         "extendedParameters": {
           "mappingType": "table_mapping"
