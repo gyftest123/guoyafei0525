@@ -5,9 +5,17 @@
       "parameter": {
         "dataSourceId": 69603,
         "dataSourceName": "售卖区_hive_EMR数据源",
-        "tableName": "",
+        "tableName": "1131",
         "readerMode": "hdfs",
-        "multiplePartitionList": [],
+        "multiplePartitionList": [
+          [
+            {
+              "name": "date",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        ],
         "columns": [],
         "templateParam": {},
         "connectorType": "hive"
