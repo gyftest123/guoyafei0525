@@ -1,0 +1,15 @@
+apiVersion: newide.studio.dataleap.volc/v1
+kind: Pipeline
+metadata:
+  name: New_pipeline_2026_09_01_09_59_58
+spec:
+  displayName: "New_pipeline_2026_09_01_09_59_58"
+  description: ""
+  runAs: "Account/2100052957"
+  trigger:
+    type: SCHEDULED
+    pauseStatus: UNPAUSED
+    frequency: daily
+    cronExpression: 54 00 * * *
+    priority: d5
+  activities: []

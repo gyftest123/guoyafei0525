@@ -1,0 +1,37 @@
+apiVersion: newide.studio.dataleap.volc/v1
+kind: Pipeline
+metadata:
+  name: New_pipeline_2026_09_04_16_44_42
+spec:
+  displayName: New_pipeline_2026_09_04_16_44_42
+  description: ''
+  runAs: Account/2100052957
+  trigger:
+    type: SCHEDULED
+    pauseStatus: UNPAUSED
+    frequency: daily
+    cronExpression: 39 00 * * *
+    priority: d5
+  activities:
+    - name: New_Job_1
+      type: notebook
+      source: WORKSPACE
+      path: /Workspace/Private/IAM_Users/leaptest1-1007975/nb_k8s.ipynb
+      kernelType: python_kubernetes
+      engineQueue: ''
+      computingResourceGroupName: 公共计算
+      computingResourceGroupId: 1012
+      sparkConf: []
+      executeParam:
+        image:
+          imageUrl: >-
+            dataleap-cn-beijing.cr.volces.com/studio/notebook_runtime:python-3-12
+        cpuCores: 1
+        memoryMb: 4096
+      parameters: []
+      resources: []
+      position:
+        x: 0
+        'y': 40
+  schedulingResourceGroupName: 公共调度资源组
+  schedulingResourceGroupId: 1009
