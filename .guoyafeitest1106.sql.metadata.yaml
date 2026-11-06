@@ -1,0 +1,10 @@
+apiVersion: newide.studio.dataleap.volc/v1
+kind: Script
+metadata:
+  name: 0dfb6c56-5099-41d2-ae41-f1043202669b
+spec:
+  sqlType: StarRocksSql
+  parameterValues: {}
+  engineType: emr_olap
+  engineCluster: cdw-4qpit1wy0n2s6yezvlpx-baseline
+  type: sql
