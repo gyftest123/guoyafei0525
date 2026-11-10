@@ -1,0 +1,11 @@
+apiVersion: newide.studio.dataleap.volc/v1
+kind: Script
+metadata:
+  name: e594de87-69bb-4ac3-97a3-3d8c0eb8101d
+spec:
+  sqlType: SparkSql
+  parameterValues: {}
+  engineType: emr_serverless
+  engineCluster: serverless_default
+  engineQueue: 公共队列-Default
+  type: sql

@@ -1,0 +1,19 @@
+apiVersion: newide.studio.dataleap.volc/v1
+kind: Script
+metadata:
+  name: 4080b9a9-296e-4b31-aa7e-8ea21b8d1c4e
+spec:
+  executeParam:
+    image:
+      imageUrl: ''
+    cpuCores: 1
+    memoryMb: 4096
+    envs: []
+    args: []
+  resources: []
+  retryPolicy:
+    timeoutSeconds: 0
+  computingResourceGroupId: 1010
+  type: shell
+  parameterValues: {}
+  engineType: shell

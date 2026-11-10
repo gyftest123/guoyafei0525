@@ -1,0 +1,21 @@
+apiVersion: newide.studio.dataleap.volc/v1
+kind: Script
+metadata:
+  name: 8506c234-2a18-4947-b03c-381fb69f5db8
+spec:
+  executeParam:
+    image:
+      imageUrl: ''
+    cpuCores: 1
+    memoryMb: 4096
+    envs: []
+    args: []
+    requirements: []
+  resources: []
+  retryPolicy:
+    timeoutSeconds: 0
+  computingResourceGroupId: 1010
+  kernelType: python_kubernetes
+  type: python
+  parameterValues: {}
+  engineType: python
